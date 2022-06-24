@@ -1,0 +1,108 @@
+body{
+    min-height: 95vh;
+    display: flex;
+    font-weight: bolder;
+    background-size: cover;
+}
+
+main, button{
+    box-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+main{
+    width: 75%;
+    margin: auto;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgoldenrod;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px  solid #c9c9c9;
+    border-bottom: 1px  solid #c9c9c9;
+}
+
+img{
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+img:hover{
+    box-shadow: 0px 14px 34px rgba(37, 54, 233, 11);
+    cursor: pointer;
+}
+
+.btn{
+    text-align: center;
+}
+
+button{
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(36, 36, 255);
+    color: #fff;
+    border-radius: 50%;
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    cursor: pointer;
+    letter-spacing: 5px;
+
+}
+
+@media(max-width:440px){
+    main{
+        width: 98%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    img{
+        margin: 20px;
+        width: 120px;
+        height: 120px;
+    }
+
+    button{
+        padding: 10px 20px;
+    }
+}
